@@ -1,0 +1,53 @@
+.logo{
+    text-align: center;
+    background-color: white;
+    background-color: #007BFF;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+body{
+    background-color: #C9E3FD;
+    text-align: center;
+    padding-bottom: 30px;
+}
+h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Ballpark Weiner", Arial;
+    background-color: #007BFF;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    width: 70%;
+}
+@font-face {
+    font-family: 'Ballpark Weiner';
+    src: url('ballpark.eot');
+    src: url('ballpark.otf') format('truetype'),
+        url('ballpark.woff') format('woff'),
+        url('ballpark.eot?#iefix') format('embedded-opentype'),
+        url('ballpark.svg#QuadrantaBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.fond{
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+    background-attachment: fixed;
+}
+p{
+    font-size: 1.5em;
+}
+.valider{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+}
